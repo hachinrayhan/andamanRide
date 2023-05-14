@@ -1,3 +1,4 @@
+import PopularActivities from "./Activities/PopularActivities";
 import OurCabs from "./OurCabs/OurCabs";
 import Slider from "./Slider/Slider";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Slider></Slider>
             <OurCabs></OurCabs>
+            <PopularActivities></PopularActivities>
         </div>
     );
 };

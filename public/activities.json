@@ -1,0 +1,142 @@
+[
+    {
+        "_id": "6460ad08d72f00d7d80368df",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/97904.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Shore Scuba Diving at North Bay Coral Island",
+        "price": 3500
+    },
+    {
+        "_id": "6460ad083ba5a6e8b2dbc265",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/39851.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Scuba Diving at Chidiyatapu",
+        "price": 9500
+    },
+    {
+        "_id": "6460ad0822a64a202f3ee618",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/1719.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Shore Scuba Diving at Havelock",
+        "price": 3150
+    },
+    {
+        "_id": "6460ad080494f852c4335ccb",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/14728.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Boat Scuba Diving at Havelock",
+        "price": 5000
+    },
+    {
+        "_id": "6460ad08a570a1674ab718ff",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/81229.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Shore Scuba Diving at Neil Island",
+        "price": 3150
+    },
+    {
+        "_id": "6460ad08d692950e67665e8b",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/48302.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Boat Scuba Diving at Neil Island",
+        "price": 5000
+    },
+    {
+        "_id": "6460ad08adf95a8ce0ab0411",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/8329.jpg",
+        "title": "Sea Walk",
+        "titleDetail": "Sea Walking at North Bay Coral Island",
+        "price": 3200
+    },
+    {
+        "_id": "6460ad08f45b1656100a9e38",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/59790.jpg",
+        "title": "Sea Walk",
+        "titleDetail": "Sea Walking at Havelock Elephant Beach",
+        "price": 3200
+    },
+    {
+        "_id": "6460ad08c8dccaf3ce8af744",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/82033.jpg",
+        "title": "Parasailing",
+        "titleDetail": "Parasailing at Corbyns Cove Beach",
+        "price": 3000
+    },
+    {
+        "_id": "6460ad08606cb109ff92299d",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/1902.jpg",
+        "title": "Parasailing",
+        "titleDetail": "Parasailing at Havelock Elephant Beach",
+        "price": 3200
+    },
+    {
+        "_id": "6460ad085aa27bfd55ca1bd3",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/15470.jpg",
+        "title": "Barren Island",
+        "titleDetail": "Barren Island Andaman",
+        "price": 25000
+    },
+    {
+        "_id": "6460ad080b341fc43ecd23a2",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/9519.jpg",
+        "title": "Glass Bottom Boat",
+        "titleDetail": "Andaman Dolphin Glass Boat Ride at North Bay Coral Island",
+        "price": 2200
+    },
+    {
+        "_id": "6460ad08eb9846f35e46ec02",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/85912.jpg",
+        "title": "Glass Bottom Boat",
+        "titleDetail": "Coral Safari Semi- Submarine Glass Boat Ride at North Bay Coral Island",
+        "price": 2800
+    },
+    {
+        "_id": "6460ad08fbeb9a2c3eb0e4a4",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/45757.jpg",
+        "title": "Glass Bottom Boat",
+        "titleDetail": "Reef Looker Semi- Submarine Glass Boat Ride at Elephant Beach",
+        "price": 3500
+    },
+    {
+        "_id": "6460ad08aeda84519821e125",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/88287.jpg",
+        "title": "Dinner Cruise",
+        "titleDetail": "Dinner Cruise in Andaman",
+        "price": 3500
+    },
+    {
+        "_id": "6460ad088098d25e8c314cb4",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/25369.jpg",
+        "title": "Trekking",
+        "titleDetail": "Trekking in Andaman Islands",
+        "price": 500
+    },
+    {
+        "_id": "6460ad08dacb59c5aeedc6b3",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/20916.jpg",
+        "title": "Kayaking",
+        "titleDetail": "Kayaking in Andaman Island",
+        "price": 3500
+    },
+    {
+        "_id": "6460ad08692ee7b398ba7823",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/75001.jpg",
+        "title": "Light & Sound Shows",
+        "titleDetail": "Cellular Jail",
+        "price": 350
+    },
+    {
+        "_id": "6460ad08c937f31a16cd1aae",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/88029.jpg",
+        "title": "Photography",
+        "titleDetail": "Photography in Andaman",
+        "price": 3000
+    },
+    {
+        "_id": "6460ad086311d602d53c730b",
+        "picture": "https://www.andamancab.in/uploads/activity-photos/83268.jpg",
+        "title": "Scuba Diving",
+        "titleDetail": "Boat Scuba Diving at North Bay Coral Island",
+        "price": 5000
+    }
+]
