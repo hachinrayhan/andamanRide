@@ -14,7 +14,7 @@ function BSNavbar() {
                         <Link to={''} className='text-decoration-none me-3 text-light'>Activities</Link>
                         <Link to={'/'} className='text-decoration-none me-3 text-light fw-bold'>Andaman Ride</Link>
                         <Link to={''} className='text-decoration-none me-3 text-light'>Car Rental</Link>
-                        <Link to={''} className='text-decoration-none me-3 text-light'>Contact Us</Link>
+                        <Link to={'/contact-us'} className='text-decoration-none me-3 text-light'>Contact Us</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
