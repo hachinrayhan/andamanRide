@@ -30,25 +30,25 @@ const ContactForm = () => {
                     <Form.Control name='name' type="text" placeholder="Enter your name" required />
                 </Form.Group>
 
-                <div className='d-flex justify-content-between'>
-                    <Form.Group className='mb-3' controlId="email">
+                <div className='d-flex w-100'>
+                    <Form.Group className='mb-3 w-50 me-3' controlId="email">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control name='email' type="email" placeholder="Enter your email" required />
+                        <Form.Control name='email' type="email" placeholder="Enter your email" className='w-100' required />
                     </Form.Group>
 
-                    <Form.Group className='mb-3' controlId="mobile">
+                    <Form.Group className='mb-3 w-50' controlId="mobile">
                         <Form.Label>Mobile</Form.Label>
                         <Form.Control name='mobile' type="text" placeholder="Enter your mobile number" required />
                     </Form.Group>
                 </div>
 
-                <div className='d-flex justify-content-between'>
-                    <Form.Group className='mb-3' controlId="totalAdults">
+                <div className='d-flex w-100'>
+                    <Form.Group className='mb-3 w-50 me-3' controlId="totalAdults">
                         <Form.Label>Total Adults</Form.Label>
                         <Form.Control name='totalAdults' type="number" placeholder="Enter the number of adults" />
                     </Form.Group>
 
-                    <Form.Group className='mb-3' controlId="totalKids">
+                    <Form.Group className='mb-3 w-50' controlId="totalKids">
                         <Form.Label>Total Kids</Form.Label>
                         <Form.Control name='totalKids' type="number" placeholder="Enter the number of kids" />
                     </Form.Group>

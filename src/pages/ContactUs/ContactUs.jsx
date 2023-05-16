@@ -29,6 +29,13 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
+                <div style={{ backgroundImage: `url(${'https://www.andamancab.in/assets/img/bgs/bg-about-us.png'})` }} className="m-5 text-light">
+                    <div style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)', padding: '70px 48px' }}>
+                        <h6>KNOW ABOUT US</h6>
+                        <h1>Your Perfect <br /> Ride Partner</h1>
+                        <h5>Andaman Cab Services is a online cab booking agency based in Port Blair offering online car rental services, which has enabled clients to avail our car hire services which has made us outperform th...</h5>
+                    </div>
+                </div>
             </div>
         </div>
     );
