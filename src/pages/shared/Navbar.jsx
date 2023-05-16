@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function BSNavbar() {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
-            <Container className=''>
+            <Container className='py-3'>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='text-uppercase col d-flex justify-content-center'>
