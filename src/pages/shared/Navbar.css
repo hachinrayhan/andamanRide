@@ -1,9 +1,9 @@
-a {
+.navbar-nav a {
     color: white;
     transition: color 0.3s ease;
 }
 
-a:hover {
+.navbar-nav a:hover {
     color: #ffc107;
     font-weight: bold;
 }
