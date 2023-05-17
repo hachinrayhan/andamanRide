@@ -1,0 +1,9 @@
+a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffc107;
+    font-weight: bold;
+}

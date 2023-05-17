@@ -33,7 +33,7 @@ const HavelockIsland = () => {
                 {
                     slicedCabs.map(cab => (
                         <Col key={cab._id}>
-                            <Link to={`https://andaman-ride.netlify.app/cab/${cab._id}`}>
+                            <Link to={`http://localhost:5173/cab/${cab._id}`}>
                                 <Card className="text-white position-relative">
                                     <Card.Img src={cab.picture} />
                                     <div className="bg-dark position-absolute w-100 h-100 opacity-25 rounded"></div>
