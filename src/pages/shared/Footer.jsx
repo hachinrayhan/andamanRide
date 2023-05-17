@@ -1,3 +1,6 @@
+import { FaMobileAlt, FaPhoneAlt, FaMap } from 'react-icons/fa';
+import { BsEnvelope } from 'react-icons/bs';
+
 const Footer = () => {
     return (
         <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 bg-dark text-light p-5">
@@ -39,12 +42,15 @@ const Footer = () => {
             <div className="col-12 col-md-6 col-lg-4">
                 <h3>Contact with Us</h3>
                 <hr />
-                <p>9933263867, 9531955441</p>
-                <p>WhatsApp: 9933263867, 9531955441</p>
-                <p>contact@andamancab.in</p>
+                <p><FaMobileAlt className='me-2' /> 9933263867, 9531955441</p>
+                <p><FaPhoneAlt className='me-2' /> WhatsApp: 9933263867, 9531955441</p>
+                <p><BsEnvelope className='me-2' /> contact@andamancab.in</p>
                 <hr />
-                <p>Shop No. 01, Pulikeezu Bhavan Bargat Line, near juvenile home, DRDO TRANSIST, Nayagaon, Port Blair, Andaman and Nicobar Islands 744106</p>
-                <p>FOLLOW US</p>
+                <p><FaMap className='me-2' /> Shop No. 01, Pulikeezu Bhavan Bargat Line, near juvenile home, DRDO TRANSIST, Nayagaon, Port Blair, Andaman and Nicobar Islands 744106</p>
+                <p>FOLLOW US <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                    <img src="https://cdn.pixabay.com/photo/2021/05/22/11/38/yt-6273367_1280.png" alt="" style={{ width: '30px', height: '30px', marginRight: '10px' }} />
+                </p>
             </div>
 
         </div>
