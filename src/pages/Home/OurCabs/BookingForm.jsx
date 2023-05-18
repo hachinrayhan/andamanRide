@@ -3,6 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-hot-toast';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 
 const SERVICE_ID = import.meta.env.VITE_serviceId;
 const TEMPLATE_ID = import.meta.env.VITE_templateId;
@@ -12,6 +13,7 @@ const BookingForm = ({ cab }) => {
   BookingForm.propTypes = {
     cab: PropTypes.object.isRequired,
   };
+  const navigate = useNavigate();
   const form = useRef();
   const handleSubmit = e => {
     e.preventDefault();
@@ -19,6 +21,7 @@ const BookingForm = ({ cab }) => {
       .then((result) => {
         console.log(result.text);
         toast.success('Message sent successfully!');
+        navigate('/');
       }, (error) => {
         console.log(error.text);
       });

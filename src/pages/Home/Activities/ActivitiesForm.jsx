@@ -1,8 +1,15 @@
-import { useEffect, useState } from "react";
+import { useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
-import { useParams } from "react-router-dom";
+import { toast } from "react-hot-toast";
+import emailjs from '@emailjs/browser';
+import { useNavigate } from "react-router-dom";
+
+const SERVICE_ID = import.meta.env.VITE_serviceId2;
+const TEMPLATE_ID = import.meta.env.VITE_templateId2;
+const PUBLIC_KEY = import.meta.env.VITE_publicKey2;
 
 const ActivitiesForm = () => {
+    const navigate = useNavigate();
     //this section is for setting default activity and place
     // const { id } = useParams();
     // const [popActivities, setPopActivities] = useState([]);
@@ -41,11 +48,25 @@ const ActivitiesForm = () => {
     const places = placesByActivity[selectedActivity] || [];
 
 
+    const form = useRef();
+    const handleSubmit = e => {
+        e.preventDefault();
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+            .then((result) => {
+                console.log(result.text);
+                toast.success('Message sent successfully!');
+                navigate('/');
+            }, (error) => {
+                console.log(error.text);
+            });
+
+    }
+
+
 
     return (
         <div className="container col-md-9 col-lg-6 shadow-lg p-3 my-5 bg-body-tertiary rounded">
-            {/* <Form ref={form} onSubmit={handleSubmit}> */}
-            <Form>
+            <Form ref={form} onSubmit={handleSubmit}>
 
                 <Form.Group className='mb-3' controlId="name">
                     <Form.Label>Name</Form.Label>
@@ -69,7 +90,7 @@ const ActivitiesForm = () => {
 
                 <Form.Group className='mb-3' controlId="activity">
                     <Form.Label>Select Activity</Form.Label>
-                    <Form.Select value={selectedActivity} onChange={handleActivityChange}>
+                    <Form.Select name="activity" value={selectedActivity} onChange={handleActivityChange}>
                         <option className="text-center" value="">---Select Activity---</option>
                         {activities.map((activity) => (
                             <option key={activity} value={activity}>
@@ -81,7 +102,7 @@ const ActivitiesForm = () => {
 
                 <Form.Group className='mb-3' controlId="place">
                     <Form.Label>Select Activity Place</Form.Label>
-                    <Form.Select>
+                    <Form.Select name="activityPlace">
                         <option className="text-center" value="">---Select Activity Place---</option>
                         {places.map((place) => (
                             <option key={place} value={place}>
@@ -93,7 +114,7 @@ const ActivitiesForm = () => {
 
                 <Form.Group className='mb-3' controlId="date">
                     <Form.Label>Select Activity Date</Form.Label>
-                    <Form.Control type="date" />
+                    <Form.Control name="activityDate" type="date" />
                 </Form.Group>
 
                 <Form.Group className='mb-3' controlId="message">

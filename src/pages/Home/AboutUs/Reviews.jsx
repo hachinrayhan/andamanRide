@@ -17,15 +17,15 @@ const Reviews = () => {
                 {reviews.map(review =>
                     <div key={review._id} className="bg-dark text-light border rounded p-3 mb-3">
                         <div className="d-flex mb-2">
-                            <img src={review.picture} alt="" style={{ width: '50px', height: '50px', borderRadius: '25px' }} className="me-2" />
+                            {/* <img src={review.picture} alt="" style={{ width: '50px', height: '50px', borderRadius: '25px' }} className="me-2" /> */}
                             <div>
-                                <span className="me-2">{review.name}</span>
+                                <span className="me-2 fw-bold">{review.name}</span>
                                 <span className="text-warning">
                                     {[...Array(review.star)].map((_, index) => (
                                         <FaStar key={index} />
                                     ))}
                                 </span>
-                                <h6>Verified User</h6>
+                                <p>Verified User</p>
                             </div>
                         </div>
                         <p>&quot;{review.review}&quot;</p>

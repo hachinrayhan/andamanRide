@@ -1,23 +1,26 @@
 import { useRef } from 'react';
 import { Form, Button } from 'react-bootstrap';
-// import emailjs from '@emailjs/browser';
-// import { toast } from 'react-hot-toast';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
-// const SERVICE_ID = import.meta.env.VITE_serviceId;
-// const TEMPLATE_ID = import.meta.env.VITE_templateId;
-// const PUBLIC_KEY = import.meta.env.VITE_publicKey;
+const SERVICE_ID = import.meta.env.VITE_serviceId2;
+const TEMPLATE_ID = import.meta.env.VITE_templateId3;
+const PUBLIC_KEY = import.meta.env.VITE_publicKey2;
 
 const ContactForm = () => {
+    const navigate = useNavigate();
     const form = useRef();
     const handleSubmit = e => {
         e.preventDefault();
-        // emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
-        //   .then((result) => {
-        //     console.log(result.text);
-        //     toast.success('Message sent successfully!');
-        //   }, (error) => {
-        //     console.log(error.text);
-        //   });
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+            .then((result) => {
+                console.log(result.text);
+                toast.success('Message sent successfully!');
+                navigate('/');
+            }, (error) => {
+                console.log(error.text);
+            });
 
     }
 

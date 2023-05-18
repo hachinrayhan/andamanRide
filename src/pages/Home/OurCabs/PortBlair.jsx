@@ -36,7 +36,7 @@ const PortBlair = () => {
                             <Link to={`https://andaman-ride.netlify.app/cab/${cab._id}`}>
                                 <Card className="text-white position-relative">
                                     <Card.Img src={cab.picture} />
-                                    <div className="bg-dark position-absolute w-100 h-100 opacity-25 rounded"></div>
+                                    <div className="bg-dark position-absolute w-100 h-100 opacity-50 rounded"></div>
                                     <Card.ImgOverlay>
                                         <Card.Text className="text-end">
                                             <span className="bg-dark p-2 rounded fw-semibold">₹ {cab.price}/-</span>

@@ -7,7 +7,7 @@ const AboutUs = () => {
     return (
         <div className="px-5 mt-5 bg-dark p-5">
             <h4 className="text-light fw-bold">Know About Us</h4>
-            <p className="text-light fs-5">Andaman Ride Services LLP is the only company which has 27 vehicles in Andaman Islands with the biggest Fleet.</p>
+            <p className="text-light fs-5">Andaman Rides Services is the only company which provides best cab rental services in Andaman Islands with the biggest Fleet.</p>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div className="col">
                     <div className="card text-center p-4 h-100">
