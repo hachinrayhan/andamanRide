@@ -18,7 +18,7 @@ const PopularActivities = () => {
                 {
                     activities.map(activity => (
                         <Col key={activity._id}>
-                            <Link to={`https://andaman-ride.netlify.app/activities/${activity._id}`}>
+                            <Link to={`https://andamanrides.com/activities/${activity._id}`}>
                                 <Card className="text-white position-relative">
                                     <Card.Img src={activity.picture} />
                                     <div className="bg-dark position-absolute w-100 h-100 opacity-50 rounded"></div>
