@@ -18,7 +18,7 @@ const ContactUs = () => {
                         </div>
                         <div className="col text-center h-100">
                             <FaEnvelopeOpenText style={{ fontSize: '3rem' }} className="mb-3" />
-                            <h5 className="text-warning">Email Address</h5>
+                            <h5 className="text-warning">Email ID</h5>
                             <p className="card-text">andamanrides@gmail.com</p>
                         </div>
                         <div className="col text-center h-100">
